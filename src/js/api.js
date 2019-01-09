@@ -24,6 +24,7 @@ export const Data = {
   search(filter) {
     return new Promise((resolve, reject) => {
       console.log(filter);
+      console.log(reject);
       resolve(filter);
     });
   },

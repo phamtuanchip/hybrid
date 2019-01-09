@@ -1,5 +1,5 @@
 import 'bootstrap';
-import { Users, Data } from './api';
+import { Users } from './api';
 import '../scss/index.scss';
 
 $('#alert').click(() => {
